@@ -84,7 +84,7 @@ class BBB
   }
 
   //
-  function Paredão()
+  function Paredao()
   {
   }
 
@@ -94,14 +94,14 @@ class BBB
 }
 $participante = new BBB();
 
-echo "<hr/>";
+
 $participante->addParticipantes("Joao", "d", false);
 $participante->addParticipantes("Camila", "d", false);
 $participante->addParticipantes("Juliette", "l", false);
 $participante->addParticipantes("Sarah", "i", false);
 $participante->addParticipantes("Gil do Vigor", "d", false);
 $participante->addParticipantes("Projota", "d", false);
-echo "<br/>";
+
 echo "<hr/>";
 $participante->imprimeParticipante();
 echo "<br/>";
